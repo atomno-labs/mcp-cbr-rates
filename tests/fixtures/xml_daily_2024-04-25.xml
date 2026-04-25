@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValCurs Date="25.04.2024" name="Foreign Currency Market">
+<Valute ID="R01235">
+<NumCode>840</NumCode>
+<CharCode>USD</CharCode>
+<Nominal>1</Nominal>
+<Name>Доллар США</Name>
+<Value>92,5012</Value>
+<VunitRate>92.5012</VunitRate>
+</Valute>
+<Valute ID="R01239">
+<NumCode>978</NumCode>
+<CharCode>EUR</CharCode>
+<Nominal>1</Nominal>
+<Name>Евро</Name>
+<Value>99,1331</Value>
+<VunitRate>99.1331</VunitRate>
+</Valute>
+<Valute ID="R01375">
+<NumCode>156</NumCode>
+<CharCode>CNY</CharCode>
+<Nominal>1</Nominal>
+<Name>Китайский юань</Name>
+<Value>12,7843</Value>
+<VunitRate>12.7843</VunitRate>
+</Valute>
+<Valute ID="R01820">
+<NumCode>392</NumCode>
+<CharCode>JPY</CharCode>
+<Nominal>100</Nominal>
+<Name>Японских иен</Name>
+<Value>59,9412</Value>
+<VunitRate>0.599412</VunitRate>
+</Valute>
+</ValCurs>

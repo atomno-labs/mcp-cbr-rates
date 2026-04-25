@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValCurs ID="R01235" DateRange1="01.04.2024" DateRange2="05.04.2024" name="Foreign Currency Market Dynamic">
+<Record Date="02.04.2024" Id="R01235">
+<Nominal>1</Nominal>
+<Value>92,7549</Value>
+<VunitRate>92.7549</VunitRate>
+</Record>
+<Record Date="03.04.2024" Id="R01235">
+<Nominal>1</Nominal>
+<Value>92,5972</Value>
+<VunitRate>92.5972</VunitRate>
+</Record>
+<Record Date="04.04.2024" Id="R01235">
+<Nominal>1</Nominal>
+<Value>92,3342</Value>
+<VunitRate>92.3342</VunitRate>
+</Record>
+<Record Date="05.04.2024" Id="R01235">
+<Nominal>1</Nominal>
+<Value>92,3776</Value>
+<VunitRate>92.3776</VunitRate>
+</Record>
+</ValCurs>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Valuta name="Foreign Currency Market Lib">
+  <Item ID="R01010">
+    <Name>Австралийский доллар</Name>
+    <EngName>Australian Dollar</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01010</ParentCode>
+    <ISO_Num_Code>036</ISO_Num_Code>
+    <ISO_Char_Code>AUD</ISO_Char_Code>
+  </Item>
+  <Item ID="R01239">
+    <Name>Евро</Name>
+    <EngName>Euro</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01239</ParentCode>
+    <ISO_Num_Code>978</ISO_Num_Code>
+    <ISO_Char_Code>EUR</ISO_Char_Code>
+  </Item>
+  <Item ID="R01999">
+    <Name>Фантомная валюта</Name>
+    <EngName>Phantom</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01999</ParentCode>
+    <ISO_Num_Code>000</ISO_Num_Code>
+    <ISO_Char_Code>XPH</ISO_Char_Code>
+  </Item>
+</Valuta>
