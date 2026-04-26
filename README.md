@@ -10,6 +10,11 @@
 [![Coverage](https://img.shields.io/badge/coverage-84%25-brightgreen.svg)](tests/)
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)
 ![MCP](https://img.shields.io/badge/MCP-compatible-brightgreen.svg)
+[![Glama](https://img.shields.io/badge/Glama-listed-7c3aed.svg)](https://glama.ai/mcp/servers/atomno-labs/mcp-cbr-rates)
+
+<a href="https://glama.ai/mcp/servers/atomno-labs/mcp-cbr-rates">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/atomno-labs/mcp-cbr-rates/badge" alt="mcp-cbr-rates MCP server" />
+</a>
 
 `mcp-cbr-rates` is part of the [atomno](https://atomno.ru) family of MCP
 servers focused on the Russian fintech ecosystem. It is fully open-source,
