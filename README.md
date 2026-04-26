@@ -5,6 +5,7 @@
 > and a compact macro snapshot — to AI agents.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/atomno-mcp-cbr-rates.svg)](https://pypi.org/project/atomno-mcp-cbr-rates/)
 [![GitHub release](https://img.shields.io/github/v/release/atomno-labs/mcp-cbr-rates.svg)](https://github.com/atomno-labs/mcp-cbr-rates/releases)
 [![Tests](https://img.shields.io/badge/tests-52%20passed-brightgreen.svg)](tests/)
 [![Coverage](https://img.shields.io/badge/coverage-84%25-brightgreen.svg)](tests/)
@@ -37,6 +38,19 @@ endpoints.
 ---
 
 ## Quick start
+
+### Install from PyPI (recommended)
+
+```bash
+pipx install atomno-mcp-cbr-rates
+mcp-cbr-rates  # starts the MCP server over stdio
+```
+
+Or with `uv`:
+
+```bash
+uv tool install atomno-mcp-cbr-rates
+```
 
 ### Install from source
 
