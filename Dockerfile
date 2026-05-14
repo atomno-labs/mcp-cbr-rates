@@ -1,8 +1,8 @@
 # syntax=docker/dockerfile:1.7
-# mcp-cbr-rates — minimal image for Glama.ai analyzer + self-hosting.
+# atomno-mcp-cbr-rates — minimal image for Glama.ai analyzer + self-hosting.
 #
-# Build:    docker build -t atomno/mcp-cbr-rates:0.1.0 .
-# Run:      docker run -i --rm atomno/mcp-cbr-rates:0.1.0
+# Build:    docker build -t atomno/atomno-mcp-cbr-rates:0.1.2 .
+# Run:      docker run -i --rm atomno/atomno-mcp-cbr-rates:0.1.2
 #
 # The server speaks MCP over stdio (JSON-RPC). Run with `-i` so stdin/stdout
 # stay attached. Glama analyzer launches the container, sends `initialize`
@@ -32,8 +32,9 @@ RUN useradd --create-home --shell /bin/bash mcp
 WORKDIR /home/mcp
 
 COPY --from=build /usr/local/lib/python3.12/site-packages/ /usr/local/lib/python3.12/site-packages/
+COPY --from=build /usr/local/bin/atomno-mcp-cbr-rates /usr/local/bin/atomno-mcp-cbr-rates
 COPY --from=build /usr/local/bin/mcp-cbr-rates /usr/local/bin/mcp-cbr-rates
 
 USER mcp
 
-ENTRYPOINT ["mcp-cbr-rates"]
+ENTRYPOINT ["atomno-mcp-cbr-rates"]

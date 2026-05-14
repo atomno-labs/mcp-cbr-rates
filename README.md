@@ -17,7 +17,7 @@
   <img width="380" height="200" src="https://glama.ai/mcp/servers/atomno-labs/mcp-cbr-rates/badge" alt="mcp-cbr-rates MCP server" />
 </a>
 
-`mcp-cbr-rates` is part of the [atomno](https://atomno.ru) family of MCP
+`mcp-cbr-rates` is part of the [atomno](https://atomno-labs.ru) family of MCP
 servers focused on the Russian fintech ecosystem. It is fully open-source,
 requires no API keys, and is built on top of the official public CBR
 endpoints.
@@ -43,7 +43,7 @@ endpoints.
 
 ```bash
 pipx install atomno-mcp-cbr-rates
-mcp-cbr-rates  # starts the MCP server over stdio
+atomno-mcp-cbr-rates  # starts the MCP server over stdio
 ```
 
 Or with `uv`:
@@ -58,7 +58,7 @@ uv tool install atomno-mcp-cbr-rates
 git clone https://github.com/atomno-labs/mcp-cbr-rates.git
 cd mcp-cbr-rates
 pip install -e .
-mcp-cbr-rates  # starts the MCP server over stdio
+atomno-mcp-cbr-rates  # starts the MCP server over stdio
 ```
 
 ### Use with Cursor
@@ -69,7 +69,7 @@ Add the following to `.cursor/mcp.json` (or your global `~/.cursor/mcp.json`):
 {
   "mcpServers": {
     "cbr-rates": {
-      "command": "mcp-cbr-rates"
+      "command": "atomno-mcp-cbr-rates"
     }
   }
 }
@@ -83,7 +83,7 @@ Add to `claude_desktop_config.json`:
 {
   "mcpServers": {
     "cbr-rates": {
-      "command": "mcp-cbr-rates"
+      "command": "atomno-mcp-cbr-rates"
     }
   }
 }
@@ -96,7 +96,7 @@ On Windows the config lives at
 ### Use with Claude Code
 
 ```bash
-claude mcp add cbr-rates -- mcp-cbr-rates
+claude mcp add cbr-rates -- atomno-mcp-cbr-rates
 ```
 
 ---
@@ -133,10 +133,12 @@ All settings are optional and read from environment variables:
 
 | Variable | Default | Description |
 |---|---|---|
-| `CBR_HTTP_TIMEOUT` | `15` | HTTP timeout in seconds for CBR calls. |
-| `CBR_CACHE_DAILY_TTL` | `3600` | Cache TTL for daily quotes (seconds). |
-| `CBR_CACHE_HISTORY_TTL` | `86400` | Cache TTL for historical series and SOAP responses. |
-| `CBR_LOG_LEVEL` | `INFO` | Standard Python log level. |
+| `MCP_CBR_HTTP_TIMEOUT` | `15` | HTTP timeout in seconds for CBR calls. |
+| `MCP_CBR_CACHE_DAILY_TTL` | `3600` | Cache TTL for daily quotes (seconds). |
+| `MCP_CBR_CACHE_HISTORY_TTL` | `86400` | Cache TTL for historical series and SOAP responses. |
+| `MCP_CBR_LOG_LEVEL` | `INFO` | Standard Python log level. |
+
+Legacy `CBR_*` names are still accepted for compatibility, but new configs should use `MCP_CBR_*`.
 
 There are no API keys to configure — all CBR endpoints used here are public.
 

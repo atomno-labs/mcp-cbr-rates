@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- **Glama analyzer build**: restored the legacy `mcp-cbr-rates` console-script
+  alias so existing Glama build specs and older user configs do not fail with
+  `Failed to spawn: mcp-cbr-rates` after the 0.1.2 CLI rename.
+- **Dockerfile**: container entrypoint now uses canonical `atomno-mcp-cbr-rates`
+  and still ships the legacy `mcp-cbr-rates` binary alias.
+- **Docs/config examples**: README and `.env.example` now use canonical
+  `atomno-mcp-cbr-rates` and `MCP_CBR_*` names.
+
 ## [0.1.2] — 2026-04-26
 
 Sync-патч с эталоном `atomno-mcp-fns-check 0.1.1`. Релиз приводит CLI-обвязку,
