@@ -1,8 +1,8 @@
 # syntax=docker/dockerfile:1.7
 # atomno-mcp-cbr-rates — minimal image for Glama.ai analyzer + self-hosting.
 #
-# Build:    docker build -t atomno/atomno-mcp-cbr-rates:0.1.2 .
-# Run:      docker run -i --rm atomno/atomno-mcp-cbr-rates:0.1.2
+# Build:    docker build -t atomno/atomno-mcp-cbr-rates:0.1.3 .
+# Run:      docker run -i --rm atomno/atomno-mcp-cbr-rates:0.1.3
 #
 # The server speaks MCP over stdio (JSON-RPC). Run with `-i` so stdin/stdout
 # stay attached. Glama analyzer launches the container, sends `initialize`
