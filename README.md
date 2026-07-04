@@ -1,3 +1,5 @@
+<!-- mcp-name: io.github.atomno-labs/mcp-cbr-rates -->
+
 # mcp-cbr-rates
 
 > A Model Context Protocol (MCP) server that exposes public Bank of Russia
