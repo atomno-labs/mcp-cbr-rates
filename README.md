@@ -1,4 +1,4 @@
-<!-- mcp-name: io.github.atomno-labs/mcp-cbr-rates -->
+<!-- mcp-name: io.github.atomno-mcp/mcp-cbr-rates -->
 
 # mcp-cbr-rates
 
@@ -8,15 +8,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/atomno-mcp-cbr-rates.svg)](https://pypi.org/project/atomno-mcp-cbr-rates/)
-[![GitHub release](https://img.shields.io/github/v/release/atomno-labs/mcp-cbr-rates.svg)](https://github.com/atomno-labs/mcp-cbr-rates/releases)
+[![GitHub release](https://img.shields.io/github/v/release/atomno-mcp/mcp-cbr-rates.svg)](https://github.com/atomno-mcp/mcp-cbr-rates/releases)
 [![Tests](https://img.shields.io/badge/tests-52%20passed-brightgreen.svg)](tests/)
 [![Coverage](https://img.shields.io/badge/coverage-84%25-brightgreen.svg)](tests/)
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)
 ![MCP](https://img.shields.io/badge/MCP-compatible-brightgreen.svg)
-[![Glama](https://img.shields.io/badge/Glama-listed-7c3aed.svg)](https://glama.ai/mcp/servers/atomno-labs/mcp-cbr-rates)
+[![Glama](https://img.shields.io/badge/Glama-listed-7c3aed.svg)](https://glama.ai/mcp/servers/atomno-mcp/mcp-cbr-rates)
 
-<a href="https://glama.ai/mcp/servers/atomno-labs/mcp-cbr-rates">
-  <img width="380" height="200" src="https://glama.ai/mcp/servers/atomno-labs/mcp-cbr-rates/badge" alt="mcp-cbr-rates MCP server" />
+<a href="https://glama.ai/mcp/servers/atomno-mcp/mcp-cbr-rates">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/atomno-mcp/mcp-cbr-rates/badge" alt="mcp-cbr-rates MCP server" />
 </a>
 
 `mcp-cbr-rates` is part of the [atomno](https://atomno-labs.ru) family of MCP
@@ -57,7 +57,7 @@ uv tool install atomno-mcp-cbr-rates
 ### Install from source
 
 ```bash
-git clone https://github.com/atomno-labs/mcp-cbr-rates.git
+git clone https://github.com/atomno-mcp/mcp-cbr-rates.git
 cd mcp-cbr-rates
 pip install -e .
 atomno-mcp-cbr-rates  # starts the MCP server over stdio
@@ -149,7 +149,7 @@ There are no API keys to configure — all CBR endpoints used here are public.
 ## Development
 
 ```bash
-git clone https://github.com/atomno-labs/mcp-cbr-rates.git
+git clone https://github.com/atomno-mcp/mcp-cbr-rates.git
 cd mcp-cbr-rates
 python -m venv .venv && source .venv/bin/activate  # or .\.venv\Scripts\activate on Windows
 pip install -e ".[dev]"

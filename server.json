@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.atomno-labs/mcp-cbr-rates",
+  "name": "io.github.atomno-mcp/mcp-cbr-rates",
   "description": "CBR exchange rates and key rates for Russia. MCP tools for finance agents.",
   "repository": {
-    "url": "https://github.com/atomno-labs/mcp-cbr-rates",
+    "url": "https://github.com/atomno-mcp/mcp-cbr-rates",
     "source": "github"
   },
   "version": "0.1.4",
