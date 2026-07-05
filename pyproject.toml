@@ -49,7 +49,7 @@ Documentation = "https://github.com/atomno-mcp/mcp-cbr-rates#readme"
 Repository = "https://github.com/atomno-mcp/mcp-cbr-rates"
 Issues = "https://github.com/atomno-mcp/mcp-cbr-rates/issues"
 Changelog = "https://github.com/atomno-mcp/mcp-cbr-rates/blob/main/CHANGELOG.md"
-"MCP Catalog" = "https://glama.ai/mcp/servers/atomno-mcp/mcp-cbr-rates"
+"MCP Catalog" = "https://glama.ai/mcp/servers/atomno-labs/mcp-cbr-rates"
 
 [build-system]
 requires = ["hatchling"]
