@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.6] — 2026-07-06
+
+### Changed
+
+- Обновлены метаданные пакета PyPI: автор и контактный email переведены на бренд `atomno-mcp` (`hello@atomno-mcp.ru`).
+
 ## [0.1.5] — 2026-07-05
 
 ### Changed
